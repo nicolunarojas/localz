@@ -1,0 +1,113 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	color: #333;
+	font-weight: 400;
+}
+
+a {
+	color: #333;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #20c3ae;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+figure img {
+	height: auto;
+	width: 100%;
+}
+
+#top-line {
+	height: 5px;
+	width: 100%;
+	display: block;
+	background-color: #20c3ae;
+}
+
+header {
+	height: 130px;
+	width: 100%;
+	padding: 40px;
+}
+
+.btn {
+	color: #fff;
+	background-color:#20c3ae;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-width: 0;
+	color:#fff;
+}
+
+ul.menu {
+	text-align: right;
+}
+
+ul.menu li {
+	display: inline;
+	margin-left: 20px;
+}
+
+ul.menu a{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.logo {
+	width: 200px;
+}
+
+#map {
+	height: 490px;
+	width: 100%;
+	background-color: #efebe2;
+}
+
+#zona-drag-and-drop {
+	position: relative;
+	top: -410px;
+	margin-bottom: -380px;
+	background-color: #20c3ae;
+	height: 450px;
+	width: 360px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#zona-drop {
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: 270px;
+	width: 320px;
+	margin-left: 15px;
+	margin-top: 25px;
+}
+
+#texto-zona-drop {
+	color: white;
+	font-size: 16px;
+}
+
+#icono-drop {
+	width: 90px;
+	margin-left: 35%;
+	margin-top: 80px;
+}
